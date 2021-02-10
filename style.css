@@ -1,0 +1,35 @@
+body {
+   font-size: 20px;
+   line-height: 150%;
+   background-color: #333;
+   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+   color: #fff;
+}
+
+.tabs {
+   display: flex;
+   flex-direction: column;
+   padding: 10px;
+   margin: 50px;
+}
+
+ul {
+   display: flex;
+   padding-left: 0;
+   margin: 0 -5px;
+   list-style: none;
+}
+
+.tab {
+   flex: 0 1 33.333%;
+   cursor: pointer;
+   border: 1px solid #666;
+   margin: 0 5px;
+   padding: 20px 10px;
+   background-color: rgb(92, 150, 92);
+   text-align: center;
+}
+
+.active {
+   background-color: rgb(173, 71, 173);
+}
